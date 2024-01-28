@@ -14,7 +14,7 @@ function Home() {
             <h1>Home</h1>
    
             <h2>Welcome {storeObj.loginReducer.loginDetails.firstName} {storeObj.loginReducer.loginDetails.lastName}</h2>
-            <img src={`http://localhost:4567/${storeObj.loginReducer.loginDetails.profilePic}`}></img>
+            <img src={`/${storeObj.loginReducer.loginDetails.profilePic}`}></img>
         </div>
     );
 }

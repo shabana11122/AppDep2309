@@ -22,7 +22,7 @@ function EditProfile() {
     lastNameInputRef.current.value = storeObj.loginDetails.lastName;
         ageInputRef.current.value = storeObj.loginDetails.age;
         emailInputRef.current.value = storeObj.loginDetails.email;
-        setProfilePicPath(`http://localhost:4567/${storeObj.loginDetails.profilePic}`)
+        setProfilePicPath(`/${storeObj.loginDetails.profilePic}`)
     },[])
 
 
